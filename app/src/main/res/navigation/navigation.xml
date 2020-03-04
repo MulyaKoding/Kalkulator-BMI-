@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="org.d3if0024.bmi.MainFragment"
+        android:label="Kalkulator BMI"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_kurusFragment"
+            app:destination="@id/kurusFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_idealFragment"
+            app:destination="@id/idealFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_gemukFragment"
+            app:destination="@id/gemukFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gemukFragment"
+        android:name="org.d3if0024.bmi.GemukFragment"
+        android:label="Mengatasi Kegemukan"
+        tools:layout="@layout/fragment_gemuk" />
+    <fragment
+        android:id="@+id/idealFragment"
+        android:name="org.d3if0024.bmi.IdealFragment"
+        android:label="Menjaga Tetap Ideal"
+        tools:layout="@layout/fragment_ideal" />
+    <fragment
+        android:id="@+id/kurusFragment"
+        android:name="org.d3if0024.bmi.KurusFragment"
+        android:label="Mengatasi Kekurusan"
+        tools:layout="@layout/fragment_kurus" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="org.d3if0024.bmi.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+</navigation>

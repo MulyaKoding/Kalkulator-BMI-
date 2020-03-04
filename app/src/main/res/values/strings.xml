@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Kalkulator BMI</string>
+
+    <string name="bmi_intro">BMI, atau Body Mass Index merupakan cara untuk menentukan apakah berat badanmu ideal atau tidak. Cobalah sekarang!</string>
+    <string name="saran_kurus">Cobalah untuk makan porsi besar, seperti burger berukuran raksasa ini.</string>
+    <string name="saran_ideal">Pertahankan gaya hidupmu! Tapi jangan kebanyakan gaya karena itu berbahaya.</string>
+    <string name="saran_gemuk">Cobalah untuk olahraga lari. Kemanapun boleh, asal tidak lari dari kehidupan.</string>
+    <string name="bmi_deskripsi">BMI atau Body Mass Index merupakan cara untuk menentukan apakah berat badanmu ideal atau tidak. Cobalah sekarang!</string>
+    <string name="bmi_bb">Berat badan (kg)</string>
+    <string name="bmi_tb">Tinggi badan (cm)</string>
+    <string name="bmi_jk">Jenis kelamin</string>
+    <string name="bmi_pria">Pria</string>
+    <string name="bmi_wanita">Wanita</string>
+    <string name="bmi_hitung">Hitung</string>
+    <string name="bmi_saran">Lihat Saran</string>
+    <string name="bmi_bagikan">Bagikan</string>
+    <string name="bmi_deskripsi_kurus">Cobalah untuk makan porsi besar, seperti burger berukuran raksasa ini.</string>
+    <string name="bmi_deskripsi_ideal">Pertahankan gaya hidupmu! Tapi jangan kebanyakan gaya karena itu berbahaya.</string>
+    <string name="bmi_deskripsi_gemuk">Cobalah untuk olahraga lari. Kemanapun boleh, asal tidak lari dari kehidupan.</string>
+    <string name="about_nim">NIM: 6706180024</string>
+    <string name="about_nama">Nama: Wandi Yusuf Kurniawan</string>
+    <string name="about_kelas">Kelas: D3IF-42-01</string>
+    <string name="about">About</string>
+    <string name="nama_rahmat_mulya_simanjuntak">Nama : Rahmat Mulya Simanjuntak</string>
+    <string name="kelas_d3if_41_gabungan">Kelas : D3IF- 41 - Gabungan</string>
+    <string name="nim_6706174034">Nim ; 6706174034</string>
+</resources>
